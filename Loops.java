@@ -62,6 +62,27 @@ Marks >=90 -> print “This is Good”
 59 >= Marks >= 0 -> print “This is Good as well”
 */      //========answeer======
 
+        System.out.println("Enter a number either 1 or 0");
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        while(n==1){
+            System.out.println("Enter your marks out of 100 : ");
+            Scanner c= new Scanner(System.in);
+            int a = c.nextInt();
+            if(a>=90){
+                System.out.println("This is good");
+            }else if(89>= a && a>= 60){
+                System.out.println("This is also good");
+            }else if(59>= a && a>=0){
+                System.out.println("This is good as well");
+            }
+            System.out.println("Enter a number either 1 or 0");
+            n = c.nextInt();
+        }
+        if(n==0){
+            System.out.println("Thank you!");
+        }
+
         
     }
 }
