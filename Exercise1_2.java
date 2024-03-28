@@ -3,7 +3,7 @@
 
 import java.util.*;
 
-public class Exercise2_2 {
+public class Exercise1_2 {
     
     public static int sum(int n) {
         int sum=0;
