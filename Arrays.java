@@ -31,6 +31,10 @@ public class Arrays {
      * Search for a given number x and
      * print the index at which it occurs.
      */
+
+    //LINEAR SEARCH
+
+    
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         
